@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+
+	<dataSource>
+		<sourceName>BCC</sourceName>
+		<driverClass>com.mysql.jdbc.Driver</driverClass>
+		<jdbcUrl>jdbc:mysql://127.0.0.1:3306/bcc?characterEncoding=UTF-8</jdbcUrl>
+		<user>root</user>
+		<password>dzw1113</password>
+	</dataSource>
+
+	<dataSource>
+		<sourceName>DAS</sourceName>
+		<driverClass>com.mysql.jdbc.Driver</driverClass>
+		<jdbcUrl>jdbc:mysql://127.0.0.1:3306/das?characterEncoding=UTF-8</jdbcUrl>
+		<user>root</user>
+		<password>dzw1113</password>
+	</dataSource>
+
+	<dataSource>
+		<sourceName>BS</sourceName>
+		<driverClass>com.mysql.jdbc.Driver</driverClass>
+		<jdbcUrl>jdbc:mysql://127.0.0.1:3306/BS?characterEncoding=UTF-8</jdbcUrl>
+		<user>root</user>
+		<password>dzw1113</password>
+	</dataSource>
+
+	<dataSource>
+		<sourceName>PDS</sourceName>
+		<driverClass>com.mysql.jdbc.Driver</driverClass>
+		<jdbcUrl>jdbc:mysql://127.0.0.1:3306/PDS?characterEncoding=UTF-8</jdbcUrl>
+		<user>root</user>
+		<password>dzw1113</password>
+	</dataSource>
+
+
+</config>
